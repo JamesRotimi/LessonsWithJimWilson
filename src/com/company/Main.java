@@ -11,12 +11,12 @@ public class Main {
             equations[3] = new MathEquation('m', 11.0d, 3.0d);
 
             for (MathEquation equation : equations) {
-                System.out.println("result = ");
+                System.out.print("result = ");
                 System.out.println(equation.getResult());
             }
 
             System.out.println();
-            System.out.println("Using overload = ");
+            System.out.println("Using overload ");
             System.out.println();
 
             double leftDouble = 9.0d;
@@ -33,6 +33,23 @@ public class Main {
             equationOverload.execute(leftInt, rightInt);
             System.out.print("result = ");
             System.out.println(equationOverload.getResult());
+
+            System.out.println();
+            System.out.println("using Inheritance");
+            System.out.println();
+
+            CalculateBase[] calculators = {
+                    new Divider( 100.0d, 50.0d),
+                    new Adder( 25.0d, 92.0d),
+                    new Subtractor(225.0d, 17.0d),
+                    new Multiplier(11.0d, 3.0d)
+            };
+
+            for (CalculateBase calculator : calculators) {
+                    calculator.calculate();
+                    System.out.print("results = ");
+                    System.out.println(calculator.getResult());
+            }
 
 
     }

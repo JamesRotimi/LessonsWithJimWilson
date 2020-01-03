@@ -1,6 +1,7 @@
 package com.company;
 
 public class MathEquation {
+
     private double leftVal;
     private double rightVal;
     private char opCode = 'a';
@@ -40,7 +41,7 @@ public class MathEquation {
         this.opCode = opCode;
     }
 
-    public MathEquation ( char opCode, double leftVal, double rightVal){
+    public MathEquation (char opCode, double leftVal, double rightVal){
         this(opCode);
         this.leftVal = leftVal;
         this.rightVal = rightVal;
@@ -51,6 +52,15 @@ public class MathEquation {
         this.rightVal = rightVal;
 
         execute();
+    }
+
+    public void execute (int leftVal, int rightVal){
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+
+        execute();
+
+        result = (int) result;
     }
 
     public void execute() {
@@ -69,10 +79,8 @@ public class MathEquation {
                 break;
             default:
                 result = 0.0d;
-                System.out.println(result);
+                System.out.println("Invalid opCode ");
                 break;
-
         }
     }
-
 }
