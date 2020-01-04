@@ -1,5 +1,7 @@
 package com.company;
 
+import static com.company.MathCommand.Add;
+
 public class CalculateHelper {
 
     private final static char ADD_SYMBOL = '+';
@@ -13,13 +15,22 @@ public class CalculateHelper {
     double rightVal;
     double result;
 
-    public void process(String statement) {
-        String[] parts = statement.split(" ");
-        String commandString = parts[0];
-        leftVal = Double.parseDouble(parts[1]);
-        rightVal = Double.parseDouble(parts[2]);
 
+    public void process(String statement) throws InvalidStatementException {
+        String[] parts = statement.split(" ");
+        if (parts.length != 3)
+            throw new InvalidStatementException("incorrect nummber of fields", statement);
+        String commandString = parts[0];
+
+        try {
+            leftVal = Double.parseDouble(parts[1]);
+            rightVal = Double.parseDouble(parts[2]);
+        } catch (NumberFormatException e) {
+                throw new InvalidStatementException("Non-numericdata", statement, e);
+        }
         setCommandFromString(commandString);
+        if(command == null)
+            throw new InvalidStatementException("Invalid command",statement);
 
         CalculateBase calculator = null;
 
@@ -44,9 +55,11 @@ public class CalculateHelper {
         result = calculator.getResult();
     }
 
+
+
     private void setCommandFromString (String commandString) {
-        if(commandString.equalsIgnoreCase(MathCommand.Add.toString()))
-            command = MathCommand.Add;
+        if(commandString.equalsIgnoreCase(Add.toString()))
+            command = Add;
         else if ((commandString.equalsIgnoreCase(MathCommand.Substract.toString())))
             command = MathCommand.Substract;
         else if (commandString.equalsIgnoreCase(MathCommand.Divide.toString()))

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aebe2cc-eee0-47b4-ab87-ec512bf925bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/CalculateHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/MathCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/InvalidStatementException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/CalculateHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/CalculateHelper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/CalculateHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/CalculateHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CalculateHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CalculateHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/InvalidStatementException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-466">
-              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="27">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -153,8 +170,10 @@
         <option value="$PROJECT_DIR$/src/com/company/Multiplier.java" />
         <option value="$PROJECT_DIR$/src/com/company/MathCommand.java" />
         <option value="$PROJECT_DIR$/src/com/company/Divider.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/InalidStatementException.java" />
+        <option value="$PROJECT_DIR$/src/com/company/InvalidStatementException.java" />
         <option value="$PROJECT_DIR$/src/com/company/CalculateHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -396,17 +415,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/InvalidStatementException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/CalculateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="27">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
