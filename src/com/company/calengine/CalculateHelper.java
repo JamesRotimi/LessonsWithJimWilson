@@ -1,6 +1,6 @@
-package com.company;
+package com.company.calengine;
 
-import static com.company.MathCommand.Add;
+import static com.company.calengine.MathCommand.Add;
 
 public class CalculateHelper {
 

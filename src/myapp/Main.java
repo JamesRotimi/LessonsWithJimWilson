@@ -1,4 +1,6 @@
-package com.company;
+package myapp;
+
+import com.company.calengine.*;
 
 public class Main {
 

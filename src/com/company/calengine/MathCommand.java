@@ -1,6 +1,6 @@
-package com.company;
+package com.company.calengine;
 
-public enum MathCommand {
+enum MathCommand {
     Add,
     Substract,
     Multiply,

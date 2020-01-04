@@ -1,4 +1,4 @@
-package com.company;
+package com.company.calengine;
 
 public class InvalidStatementException extends Exception {
 
