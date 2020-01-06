@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aebe2cc-eee0-47b4-ab87-ec512bf925bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/calengine/DynamicHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/calengine/MathProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/calengine/PowerOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/calengine/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LessonWithJimWilson/com/company/calengine/Adder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LessonWithJimWilson/myapp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LessonWithJimWilson/myapp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/calengine/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calengine/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/calengine/Divider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/calengine/Divider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myapp/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,39 +23,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/myapp/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/calengine/PowerOf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="34">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="46" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Divider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/calengine/InvalidStatementException.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/calengine/CalculateBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-              </folding>
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -77,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/calengine/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="103" column="29" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="103" selection-end-column="29" />
+            <state relative-caret-position="1751">
+              <caret line="103" column="29" selection-start-line="93" selection-start-column="7" selection-end-line="103" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -87,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/calengine/MathProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -95,13 +90,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Adder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="265">
               <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,12 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/calengine/DynamicHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="493">
               <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -125,10 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +123,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -182,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/com/company/calengine/DynamicHelper.java" />
         <option value="$PROJECT_DIR$/src/com/company/calengine/PowerOf.java" />
         <option value="$PROJECT_DIR$/src/myapp/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/calengine/Divider.java" />
       </list>
     </option>
   </component>
@@ -196,8 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,6 +236,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +294,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,7 +307,7 @@
       <window_info id="Learn" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3180272" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3180272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,38 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/CalculateBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Divider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/calengine/MathEquation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -397,25 +347,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Multiplier.java">
+    <entry file="file://$PROJECT_DIR$/src/myapp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Subtractor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/InvalidStatementException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,72 +368,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/CalculateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="29" selection-start-line="93" selection-start-column="7" selection-end-line="103" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/calengine/MathProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Adder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/CalculateHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="103" column="29" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="103" selection-end-column="29" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/calengine/DynamicHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
+        <state relative-caret-position="493">
           <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/InvalidStatementException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Subtractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Multiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/calengine/PowerOf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="46" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myapp/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/CalculateBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Adder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/calengine/Divider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
