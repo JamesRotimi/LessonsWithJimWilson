@@ -6,16 +6,19 @@ public class Main {
 
         public static void main(String[] args) {
 
+
                 String[] statements = {
                         "add 25.0 92.0",
                         "power 5.0 2.0",
-                        "divide 20.0 2.0"
+                        "divide 20.0 2.0",
+                        "subtract 30.0 13.5"
                 };
 
                 DynamicHelper helper = new DynamicHelper(new MathProcessing[] {
                         new Adder(),
                         new PowerOf(),
-                        new Divider()
+                        new Divider(),
+                        new Subtractor()
 
                 });
 
